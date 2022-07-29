@@ -1,28 +1,51 @@
-.flex-container{
-    display:flex;
-    flex-direction: column;
-    background-image:url(./images/henrik-donnestad-t2Sai-AqIpI-unsplash.jpg);
-    color: white;
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+body {
+    margin: 0;
+    background: slategray;
+    font-family: 'Tagnerine', serif;
 }
 .header{
-    display:flex;
-    background:black;
+    background:ivory;
+    border-bottom: 4px darkslategray;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.profile-image {
+    background: deepskyblue;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    width 48px;
+    height: 48px;
+}
+.logo {
+    color:cadetblue;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+button {
+    border: none;
+    border-radius: 8px;
+    background: deepskyblue;
     color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
+    padding: 8px 24px;
 }
-.logo{
-    display:flex;
-    font-size: 24px;
-    font-weight:900;
-    justify-content: center;
-}
-.links
-{
-    justify-content: flex-end;
 
+a {
+    text-decoration: none;
+    color: darkslategray;
 }
-.quote
-{
-    background-color:lightsteelblue;
+ul {
+    list-style-type:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
