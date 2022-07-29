@@ -1,6 +1,8 @@
 .flex-container{
     display:flex;
     flex-direction: column;
+    background-image:url(./images/henrik-donnestad-t2Sai-AqIpI-unsplash.jpg);
+    color: white;
 }
 .header{
     display:flex;
@@ -19,4 +21,8 @@
 {
     justify-content: flex-end;
 
+}
+.quote
+{
+    background-color:lightsteelblue;
 }
