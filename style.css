@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine');
 body {
     margin: 0;
-    background: slategray;
+    background:black;
     font-family: 'Tagnerine', serif;
 }
 .header{
@@ -32,7 +32,17 @@ button {
     color: white;
     padding: 8px 24px;
 }
-
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 500px;
+    height: auto;
+}
 a {
     text-decoration: none;
     color: darkslategray;
