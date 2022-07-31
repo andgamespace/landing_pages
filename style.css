@@ -47,6 +47,12 @@ a {
     text-decoration: none;
     color: darkslategray;
 }
+.footer {
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
 ul {
     list-style-type:none;
     display: flex;
