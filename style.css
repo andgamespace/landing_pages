@@ -53,6 +53,14 @@ a {
     justify-content: space-between;
     padding: 16px;
 }
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    font-size: 25px;
+    color: white;
+
+}
 ul {
     list-style-type:none;
     display: flex;
